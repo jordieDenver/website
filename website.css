@@ -1,0 +1,403 @@
+/* home page css stuff { */
+
+.Welcome{
+    opacity: 0.8;
+    color:aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px; 
+    border-radius: 60%;
+    padding-left: 75px;  
+    background-color: rgb(43, 45, 46);
+    text-align: center;
+}
+.homepageBody{
+    background-image: url("background.jpg");
+  }
+.info{
+    opacity: 0.8;
+    color:aqua;
+    padding-left: 20px;
+    background-color: rgb(43, 45, 46);
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+.homepagePic{
+    opacity: 0.8;
+}
+.nav{
+    position: absolute;
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    margin: 0 auto;
+}
+.searchbar{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    top: -40px;
+}
+.searchbar li{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.searchbar li a{
+    text-decoration: underline;
+    opacity: 0.8;
+    width: 200px;
+    height: 40px;
+    color: aqua;
+    line-height: 40px;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: rgb(43, 45, 46);
+}
+
+.searchbar li a:hover{
+    background-color: blue;
+}
+.motto{
+    color: aqua;
+    opacity: 0.8;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 50%;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px 20px;
+    background-color: rgb(43, 45, 46);
+    position: relative;
+    top: -20px;
+}
+.footerOne{
+    color: aqua;
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+/* contacts page css stuff */
+.contactsBody{
+background: url(background.jpg);
+background-size: cover;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact .contentTwo{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .contentTwo h2{
+    opacity: 0.8;
+    color:aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px; 
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: rgb(43, 45, 46);
+    text-align: center;
+
+}
+.contact .contentTwo p{
+    opacity: 0.8;
+    font-size: 25px;
+    font-weight: 300;
+    color: aqua;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(43, 45, 46);
+    position: relative;
+    top: -50px;
+}
+.containerTwo{
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 300;
+    color: aqua;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(43, 45, 46);
+}
+
+/* branches page css stuff */
+
+.branchesBody{
+    background-image: url("background.jpg");
+}
+nav{
+    opacity: 0.8;
+    height: 30px;
+    width: 100%;
+    background: rgb(43, 45, 46);
+}
+.arrow-btn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9;
+}
+.arrow-btn a{
+    height: 39px;
+    width: 37px;
+    text-align: center;
+    background: rgb(196, 69, 20);
+    display: block;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.arrow-btn a img{
+    color: aqua;
+    line-height: 39px;
+    font-size: 25px
+}
+.Branches{
+    opacity: 0.8;
+    color:aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 75px; 
+    border-radius: 60%;
+    padding-left: 75px;  
+    background-color: rgb(43, 45, 46);
+    text-align: center;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: aqua;
+}
+.branchesTitle{
+    border-radius: 60%;
+    padding-left: 75px;  
+    background-color: rgb(43, 45, 46);
+    opacity: 0.9;
+    font-size: 70px;
+    line-height: 100px;
+    font-weight: bold;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    top: -380px;
+}
+.content p{
+    opacity: 0.9;
+    color:aqua;
+    padding-left: 20px;
+    background-color: rgb(43, 45, 46);
+    margin: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: -200px;
+}
+
+.slider{
+    color:rgb(196, 69, 20);
+    margin-left: 12px;
+    box-sizing: border-box;
+    animation: slider 6s linear infinite;
+}
+
+@keyframes slider{
+    0%{margin-top: -200px ;}
+    30%{margin-top: -200px ;}
+    35%{margin-top: 0px ;}
+    65%{margin-top: -0px ;}
+    70%{margin-top: 200px ;}
+    100%{margin-top: 200px ;}
+}
+
+
+.searchbarTwo{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.searchbarTwo li{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.searchbarTwo li a{
+    text-decoration: underline;
+    opacity: 0.8;
+    width: 200px;
+    height: 40px;
+    color: aqua;
+    line-height: 40px;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: rgb(43, 45, 46);
+}
+
+.searchbarTwo li a:hover{
+    background-color: blue;
+}
+
+.branchmotto{
+    color: aqua;
+    opacity: 0.8;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 50%;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px 20px;
+    background-color: rgb(43, 45, 46);
+    position: relative;
+    top: 400px;
+}
+.branchFooter{
+    color: aqua;
+    text-align: center;
+}
+.GFE{
+    opacity: 0.8;
+    color:aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px; 
+    border-radius: 60%;
+    border-radius: 80%;
+    padding-left: 50px;
+    padding-right: 50px;   
+    background-color: rgb(43, 45, 46);
+    text-align: center;
+    position: relative;
+    top: 350px;
+}
+.GFEInfo{
+    opacity: 0.8;
+    color:aqua;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(43, 45, 46);
+    margin: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+.DOC{
+    opacity: 0.8;
+    color:aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px; 
+    border-radius: 60%;
+    border-radius: 80%;
+    padding-left: 50px;
+    padding-right: 50px;   
+    background-color: rgb(43, 45, 46);
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+.DOCInfo{
+    opacity: 0.8;
+    color:aqua;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(43, 45, 46);
+    margin: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+.Zenith{
+    opacity: 0.8;
+    color:aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px; 
+    border-radius: 80%;
+    padding-left: 50px;
+    padding-right: 50px;  
+    background-color: rgb(43, 45, 46);
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+.ZenithInfo{
+    opacity: 0.8;
+    color:aqua;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(43, 45, 46);
+    margin: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.branchMotto{
+    color: aqua;
+    opacity: 0.8;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 50%;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px 20px;
+    background-color: rgb(43, 45, 46);
+    position: relative;
+    top: 200px;
+}
+.branchFooter{
+    color: aqua;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+/* past events page css */
+.eventsBody{
+    background-image: url("background.jpg");
+}
+.events{
+    opacity: 0.8;
+    color:aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px; 
+    border-radius: 60%;
+    padding-left: 75px;  
+    background-color: rgb(43, 45, 46);
+    text-align: center;
+}
+.work{
+    opacity: 0.8;
+    color:aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px; 
+    padding-left: 90px;  
+    background-color: rgb(43, 45, 46);
+    text-align: center;
+}
